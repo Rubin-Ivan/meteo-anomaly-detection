@@ -92,7 +92,7 @@ if __name__ == "__main__":
     clusters = np.load('clusters_Чукотское.npy')
     threshold = 0.2
     month = 1
-    bn_name = 'Чукотское_BN.json'
+    bn_name = 'BN.json'
 
 
     prob_mask, anomaly_mask = anomaly_detection(data[0], bn_name, month, threshold, land_mask, clusters)
