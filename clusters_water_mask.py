@@ -1,7 +1,3 @@
-import numpy as np
-from scipy.spatial import cKDTree
-
-
 
 import numpy as np
 from scipy.spatial import cKDTree
